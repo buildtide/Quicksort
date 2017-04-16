@@ -1,0 +1,89 @@
+{
+    "project": {},
+    "files": {
+        "Quicksort.js": {
+            "name": "Quicksort.js",
+            "modules": {},
+            "classes": {
+                "QuickSort": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "QuickSort": {
+            "name": "QuickSort",
+            "shortname": "QuickSort",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "Quicksort.js",
+            "line": 3,
+            "description": "This class contains logic for QuickSort algorithm implementation.",
+            "is_constructor": 1
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "Quicksort.js",
+            "line": 12,
+            "description": "Starts the soring process.",
+            "itemtype": "method",
+            "name": "sort",
+            "params": [
+                {
+                    "name": "arry",
+                    "description": "The array to be sorted.",
+                    "type": "Array"
+                }
+            ],
+            "class": "QuickSort"
+        },
+        {
+            "file": "Quicksort.js",
+            "line": 24,
+            "description": "Swaps array according to given indices.",
+            "itemtype": "method",
+            "name": "swap",
+            "params": [
+                {
+                    "name": "i",
+                    "description": "Index of array to swap.",
+                    "type": "Number"
+                },
+                {
+                    "name": "j",
+                    "description": "Index of array to swap.",
+                    "type": "Number"
+                }
+            ],
+            "class": "QuickSort"
+        },
+        {
+            "file": "Quicksort.js",
+            "line": 36,
+            "description": "Sorts array in O(nlogn) time average case and O(n^2) worst case. With space complexity of O(logn).",
+            "itemtype": "method",
+            "name": "quicksort",
+            "params": [
+                {
+                    "name": "low",
+                    "description": "The lower-end index of array.",
+                    "type": "Number"
+                },
+                {
+                    "name": "high",
+                    "description": "The higher-end index of array.",
+                    "type": "Number"
+                }
+            ],
+            "class": "QuickSort"
+        }
+    ],
+    "warnings": []
+}
