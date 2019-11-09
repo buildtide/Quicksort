@@ -1,4 +1,6 @@
-import {Countingsort} from './Countingsort';
+#Countingsort:
+```javascript
+import {Countingsort} from '@softnami/countingsort';
 
 let unsortedArray: number[] = [];
 
@@ -24,3 +26,6 @@ sortedArray = sorter.sort(unsortedArray);
 
 console.log('Sorted Array', sortedArray);
  
+```
+#Daily Coding Question:
+Visit http://www.softnami.com/dailycoding/signup.html to get daily coding question at your email.

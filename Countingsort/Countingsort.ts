@@ -35,6 +35,7 @@ export class Countingsort {
           sortedIndex++;
         }
       }
+      console.log("\n Visit htttp://www.softnami.com/dailycoding/signup.html to get a coding question every day. \n");  
       return sortedArry;
     }
     return [];

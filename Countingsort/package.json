@@ -1,0 +1,21 @@
+{
+  "name": "@softnami/countingsort",
+  "version": "1.0.0",
+  "description": "Countingsort algorithm in TypeScript.",
+  "main": "Countingsort.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/husenxce/Sorting-Algorithms-in-TypeScript/tree/master/Countingsort"
+  },
+  "keywords": [
+    "Countingsort",
+    "typescript",
+    "algorithms",
+    "data-structures"
+  ],
+  "author": "Hussain Mir Ali",
+  "license": "MIT "
+}

@@ -1,22 +1,31 @@
-#InsertionSort:
+#Countingsort:
 ```javascript
-import {InsertionSort} from '@softnami/insertionsort';
+import {Countingsort} from '@softnami/countingsort';
 
-let sorter:InsertionSort = new InsertionSort();
-let dummyarray:number[] = [];
+let unsortedArray: number[] = [];
 
-for(let i:number=0; i<15; i++){
+let sortedArray: number[] = [];
 
-  dummyarray[i] = Math.floor(Math.random()*290+1);
-
+for (let i = 0; i < 10; i++) {
+  unsortedArray[i] = Math.floor(Math.random() * 5 + 0);
 }
 
-console.log("Unsorted Array", dummyarray);
+for (let i = 0; i < 10; i++) {
 
-dummyarray = sorter.sort(dummyarray);
+  let randomindex = Math.floor(Math.random() * 9 + 0);
+  let temp = unsortedArray[i];
+  unsortedArray[i] = unsortedArray[randomindex];
+  unsortedArray[randomindex] = temp;
+}
 
-console.log("Sorted Array", dummyarray);
+console.log('UnsortedArray', unsortedArray);
 
+
+let sorter: Countingsort = new Countingsort();
+sortedArray = sorter.sort(unsortedArray);
+
+console.log('Sorted Array', sortedArray);
+ 
 ```
 #Daily Coding Question:
 Visit http://www.softnami.com/dailycoding/signup.html to get daily coding question at your email.
