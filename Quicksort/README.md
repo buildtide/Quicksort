@@ -1,17 +1,22 @@
-#Quicksort:
+#InsertionSort:
 ```javascript
-import {QuickSort} from '@softnami/quicksort'
+import {InsertionSort} from '@softnami/insertionsort';
 
-let arry:number[] = [];
+let sorter:InsertionSort = new InsertionSort();
+let dummyarray:number[] = [];
 
-console.log('Unsorted');
-console.time('time to sort');
+for(let i:number=0; i<15; i++){
 
-let sorter:QuickSort = new QuickSort();
-    sorter.sort(arry);
+  dummyarray[i] = Math.floor(Math.random()*290+1);
 
-console.timeEnd('time to sort');
-console.log('Sorted');
+}
+
+console.log("Unsorted Array", dummyarray);
+
+dummyarray = sorter.sort(dummyarray);
+
+console.log("Sorted Array", dummyarray);
+
 ```
 #Daily Coding Question:
 Visit http://www.softnami.com/dailycoding/signup.html to get daily coding question at your email.
