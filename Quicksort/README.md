@@ -1,6 +1,6 @@
 #Quicksort:
 ```javascript
-import {QuickSort} from 'quicksort'
+import {QuickSort} from '@softnami/quicksort'
 
 let arry:number[] = [];
 
@@ -13,5 +13,5 @@ let sorter:QuickSort = new QuickSort();
 console.timeEnd('time to sort');
 console.log('Sorted');
 ```
-#Daily Coding:
+#Daily Coding Question:
 Visit http://www.softnami.com/dailycoding/signup.html to get daily coding question at your email.
