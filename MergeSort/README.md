@@ -1,4 +1,6 @@
-import {MergeSort} from './Mergesort'
+#MergeSort:
+```javascript
+import {MergeSort} from '@softnami/mergesort'
 
 let arry:number[] = [];
 
@@ -14,3 +16,6 @@ sorter.sort(arry);
 
 console.timeEnd('time to sort');
 console.log('time to sort');
+```
+#Daily Coding Question:
+Visit http://www.softnami.com/dailycoding/signup.html to get daily coding question at your email.

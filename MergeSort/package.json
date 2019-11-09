@@ -1,0 +1,21 @@
+{
+  "name": "@softnami/mergesort",
+  "version": "1.0.0",
+  "description": "Mergesort algorithm in TypeScript.",
+  "main": "Quicksort.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/husenxce/Sorting-Algorithms-in-TypeScript/tree/master/MergeSort"
+  },
+  "keywords": [
+    "mergesort",
+    "algorithms",
+    "sorting",
+    "typescriptalgorithms"
+  ],
+  "author": "Hussain Mir Ali",
+  "license": "MIT"
+}
