@@ -1,30 +1,28 @@
-#Countingsort:
+#Quicksort:
 ```javascript
-import {Countingsort} from '@softnami/countingsort';
+import {Quicksort} from '@softnami/quicksort';
 
-let unsortedArray: number[] = [];
-
-let sortedArray: number[] = [];
+let arry: number[] = [];
 
 for (let i = 0; i < 10; i++) {
-  unsortedArray[i] = Math.floor(Math.random() * 5 + 0);
+  arry[i] = Math.floor(Math.random() * 5 + 0);
 }
 
 for (let i = 0; i < 10; i++) {
 
   let randomindex = Math.floor(Math.random() * 9 + 0);
-  let temp = unsortedArray[i];
-  unsortedArray[i] = unsortedArray[randomindex];
-  unsortedArray[randomindex] = temp;
+  let temp = arry[i];
+  arry[i] = arry[randomindex];
+  arry[randomindex] = temp;
 }
 
-console.log('UnsortedArray', unsortedArray);
+console.log('UnsortedArray', arry);
 
 
-let sorter: Countingsort = new Countingsort();
-sortedArray = sorter.sort(unsortedArray);
+let sorter: Quicksort = new Quicksort();
+            sorter.sort(arry);
 
-console.log('Sorted Array', sortedArray);
+console.log('Sorted Array', arry);
  
 ```
 #Daily Coding Question:
