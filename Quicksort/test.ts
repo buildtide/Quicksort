@@ -1,5 +1,3 @@
-#Quicksort:
-```javascript
 import Quicksort from './Quicksort';
 
 let arry: number[] = [];
@@ -20,18 +18,8 @@ for (let i = 0; i < 10; i++) {
 
 console.log('UnsortedArray', arry);
 
-/*UnsortedArray [
-  4, 4, 1, 2, 1,
-  4, 3, 2, 2, 4
-]*/
 
 let sorter: Quicksort = new Quicksort();
             sorter.sort(arry);
 
 console.log('Sorted Array', arry);
-
-/*Sorted Array [
-  1, 1, 2, 2, 2,
-  3, 4, 4, 4, 4
-]*/
-```

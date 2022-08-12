@@ -4,9 +4,9 @@
  * @class QuickSort
  * @constructor
  */
-export class QuickSort {
+export default class QuickSort {
 
-  private arr: number[];
+  private arry: number[];
 
   constructor() {}
     /**
@@ -16,9 +16,9 @@ export class QuickSort {
      * @param {Array} arry The array to be sorted.
      */
   public sort(arry: number[]): void {
-    if (arry !== undefined || arry.length !== 0) {
-      this.arr = arry;
-      this.quicksort(0, this.arr.length - 1);
+    if (arry && arry.length !== 0) {
+      this.arry = arry;
+      this.quicksort(0, this.arry.length - 1);
     }
   }
 
@@ -30,9 +30,7 @@ export class QuickSort {
    * @param {Number} j Index of array to swap.
    */
   public swap(i: number, j: number): void {
-    this.arr[i] = this.arr[i] ^ this.arr[j];
-    this.arr[j] = this.arr[i] ^ this.arr[j];
-    this.arr[i] = this.arr[i] ^ this.arr[j];
+    [this.arry[i], this.arry[j]] = [this.arry[j], this.arry[i]]
   }
 
   /**
@@ -45,15 +43,15 @@ export class QuickSort {
   public quicksort(low: number, high: number): void {
     let i: number = low;
     let j: number = high;
-    let pivot: number = this.arr[Math.floor((low + high) / 2)];
+    let pivot: number = this.arry[Math.floor((low + high) / 2)];
 
     while (i <= j) {
 
-      while (this.arr[i] < pivot) {
+      while (this.arry[i] < pivot) {
         i++;
       }
 
-      while (this.arr[j] > pivot) {
+      while (this.arry[j] > pivot) {
         j--;
       }
 
