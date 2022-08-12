@@ -1,6 +1,6 @@
 #Quicksort:
 ```javascript
-import Quicksort from './Quicksort';
+import Quicksort from '@softnami/quicksort';
 
 let arry: number[] = [];
 

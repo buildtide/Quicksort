@@ -1,6 +1,6 @@
 {
   "name": "@softnami/quicksort",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Quicksort algorithm in typescript.",
   "main": "Quicksort.ts",
   "scripts": {
