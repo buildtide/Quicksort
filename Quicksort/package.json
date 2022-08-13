@@ -4,6 +4,7 @@
   "description": "Quicksort algorithm in typescript.",
   "main": "Quicksort.ts",
   "scripts": {
+    "postinstall": "node cat.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
