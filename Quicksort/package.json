@@ -1,10 +1,10 @@
 {
   "name": "@softnami/quicksort",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Quicksort algorithm in typescript.",
   "main": "Quicksort.ts",
   "scripts": {
-    "postinstall": "node cat.js",
+    "postinstall": "node postinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
