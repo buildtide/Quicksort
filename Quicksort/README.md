@@ -1,4 +1,7 @@
 # Quicksort:
+
+This is a module for the Quicksort algorithm and helps you sort arrays. It is built with TypeScript, is light weight and has no dependencies.
+
 ```javascript
 import Quicksort from '@softnami/quicksort';
 
