@@ -1,5 +1,8 @@
 # Quicksort:
 
+### [Author: Hussain Mir Ali] 
+#### [Hire me,](mailto:admin@cloudhadoop.com) I can build your next project. 
+
 This is a module for the Quicksort algorithm and helps you sort arrays. It is built with TypeScript, is light weight and has no dependencies.
 
 ```javascript
