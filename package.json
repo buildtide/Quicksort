@@ -1,6 +1,6 @@
 {
   "name": "@softnami/quicksort",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Quicksort algorithm in typescript.",
   "main": "Quicksort.ts",
   "scripts": {
@@ -18,5 +18,8 @@
     "typescriptalgorithms"
   ],
   "author": "Hussain Mir Ali",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
 }

@@ -8,7 +8,9 @@ export default class QuickSort {
 
   private arry: number[];
 
-  constructor() {}
+  constructor() {
+    this.arry = [];
+  }
     /**
      * Starts the soring process.
      *
